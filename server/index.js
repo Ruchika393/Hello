@@ -9,7 +9,7 @@ import userRouter from "./routes/user.route.js"
 import interviewRouter from "./routes/interview.route.js"
 const app = express()
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://interviewai-ycwx.onrender.com",
     credentials: true
 }))
 
